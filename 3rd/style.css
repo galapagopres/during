@@ -1,0 +1,152 @@
+/* 
+Picture	
+*/
+.overheadpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.imageContainer {
+  width: auto;
+}
+ 
+/* 
+Background Color
+*/
+body {
+  background-color: #49565c;
+}
+
+/* 
+Settings for the Sorrounding/Decorative Boxes
+*/
+.box1 {
+  
+  border: 4px solid rgba(0, 0, 0, 0.39);
+  background-color: #8cb693ec;
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  
+}
+
+.box2 {
+  width: 800px;
+  border: 4px solid rgba(0, 0, 0, 0.486);
+  background-color: #f9dfffaf;
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  
+}
+/* 
+Settings for the Article portion
+*/
+
+
+.pageContainer {
+  height: auto;
+  border: 4px solid rgba(12, 8, 54, 0.315) ;
+  width: auto;
+  margin: auto;
+  padding: 10px;
+  background-color: #1a3540;
+  text-align: center;
+  position: relative;
+}
+ 
+
+/* 
+ Text settings inside the box
+*/
+.textContainer {
+  text-align: center;
+  margin: auto;
+  color: #e2f0dd;
+}
+
+
+h1 {
+  font-family:'Brush Script MT', cursive;
+  font-size: 64px;
+  color: #f3ffe8;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+ 
+h2 {
+  font-family: 'Times New Roman', serif;
+  font-size: 30px;
+  color: #e2f0dd;
+}
+
+h3{
+  font-family: 'Times New Roman', serif;
+  font-size: 30px;
+  color: #e2f0dd;
+}
+p, li {
+  font-family: 'Times New Roman', serif;
+  font-size: 22px;
+  color: #e2f0dd;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.pageContainer:after { 
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* 
+How the seperators/lines between sections look
+*/
+ hr {
+    border: none;
+    border-top: 7px double #4b5e55;
+    overflow: visible;
+    text-align: center;
+    height: 7px;
+}
+
+/* 
+End/Bottom of Page
+*/
+footer {
+   text-align: center;
+   padding: 30x;
+   font-family: 'Times New Roman', serif;
+   font-size: 22px;
+   color: #9181a5;
+}
+
+/* unvisited link */
+a:link {
+  color: #e2f0dd;
+}
+
+/* visited link */
+a:visited {
+  color: #91bda6;
+}
+
+/* mouse over link */
+a:hover {
+  color: #b9ebd1;
+}
+
+/* selected link */
+a:active {
+  color: #91bda6;
+}
+
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 155px;
+  color: white;
+}
